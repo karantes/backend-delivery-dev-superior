@@ -1,4 +1,4 @@
-package br.com.arantes.horasextras;
+package br.com.arantes.delivery;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(HorasExtrasApplication.class);
+		return application.sources(DeliveryApplication.class);
 	}
 
 }

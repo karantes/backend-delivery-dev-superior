@@ -1,13 +1,13 @@
-package br.com.arantes.horasextras;
+package br.com.arantes.delivery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HorasExtrasApplication {
+public class DeliveryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HorasExtrasApplication.class, args);
+		SpringApplication.run(DeliveryApplication.class, args);
 	}
 
 }
